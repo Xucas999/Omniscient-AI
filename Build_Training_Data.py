@@ -35,8 +35,8 @@ for page in range(1, max_pages + 1):
         sort_by='publishedAt',
         page=page,
         page_size=page_size,
-        from_param='2025-04-26',  # start date
-        to='2025-05-26'           # end date
+        from_param='2025-07-04',  # start date
+        to='2025-08-04'           # end date
     )
     
     for article in articles['articles']:
